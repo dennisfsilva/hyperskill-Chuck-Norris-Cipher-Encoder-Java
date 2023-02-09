@@ -1,8 +1,71 @@
-This is the *Chuck Norris Cipher Encoder* project I made myself.
+# Chuck Norris Cipher Encoder
 
+[Chuck Norris Cipher Encoder](https://hyperskill.org/projects/293) provides the necessary tools to work with string and character variables, as well as loops and conditional statements. It also introduces binary notation and data type conversion, and allows users to create an application for unary representation and decoding of any text.
 
-<p>Secret agents use encryption all the time. You know that everything can be encrypted as different characters. What about encryption that uses only one character and space? This method has a name — the Chuck Norris cipher. In this project, you will create a program that can encrypt any text into a sequence of zeros and spaces and decrypt this sequence into text.</p><br/><br/>Learn more at <a href="https://hyperskill.org/projects/293?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=project-card">https://hyperskill.org/projects/293</a>
+Explore this [Chuck Norris Cipher Converter](https://www.dcode.fr/chuck-norris-code) website for further details, and try the converter yourself.
 
-Here's the link to the project: https://hyperskill.org/projects/293
+Code sample:
 
-Check out my profile: https://hyperskill.org/profile/352309483
+Example 1:
+```
+Please input operation (encode/decode/exit):
+> encode
+Input string:
+> Hey!
+Encoded string:
+0 0 00 00 0 0 00 000 0 00 00 00 0 0 00 0 0 00000 00 00 0 0 00 0 0 0 00 0000 0 0
+
+Please input operation (encode/decode/exit):
+> decode
+Input encoded string:
+> 0 0 00 00 0 0 00 000 0 00 00 00 0 0 00 0 0 00000 00 00 0 0 00 0 0 0 00 0000 0 0
+Decoded string:
+Hey!
+
+Please input operation (encode/decode/exit):
+> exit
+Bye!
+```
+
+Example 2:
+```
+Please input operation (encode/decode/exit):
+> smile
+There is no 'smile' operation
+
+Please input operation (encode/decode/exit):
+> decode
+Input encoded string:
+> 0 0 00 00 0 0 00 000
+Decoded string:
+H
+
+Please input operation (encode/decode/exit):
+> decode
+Input encoded string:
+> 0 0 00 00 0 0 00 000 0 00 00 0 0 0 00 00 0 0 00 0 0 0 00 000000 0 0000 00 000 0 00 00 00 0 00
+Decoded string:
+Hi <3
+
+Please input operation (encode/decode/exit):
+> decode
+Input encoded string:
+> 000 0 00 00 0000 0 00 000
+Encoded string is not valid.
+
+Please input operation (encode/decode/exit):
+> decode
+Input encoded string:
+> 0 0 00 00 0 0 00
+Encoded string is not valid.
+
+Please input operation (encode/decode/exit):
+> decode
+Input encoded string:
+> 0 0 00 00 0 0 00 00
+Encoded string is not valid.
+
+Please input operation (encode/decode/exit):
+> exit
+Bye!
+```
